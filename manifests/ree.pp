@@ -6,7 +6,7 @@
 
 class ruby::ree {
   require ruby
-  require ruby::ree_1_8_7_2012_02
+  require ruby::ree_1_8_7_2011_03
 
   file { "${ruby::rbenv_root}/versions/ree":
     ensure => symlink,
