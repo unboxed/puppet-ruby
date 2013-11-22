@@ -1,4 +1,4 @@
-# Public: Install ree-1.8.7-2012.02 via rbenv.
+# Public: Install ree-1.8.7-2011.03 via rbenv.
 #
 # Usage:
 #
@@ -29,7 +29,7 @@ class ruby::ree_1_8_7_2011_03 {
     }
   }
 
-  ruby::version { 'ree-1.8.7-2012.02':
+  ruby::version { 'ree-1.8.7-2011.03':
     env => $env
   }
 }
